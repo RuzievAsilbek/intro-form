@@ -36,6 +36,13 @@
 }
 
 
+:root {
+  --body-bg: #f1f4ff;
+  --green-bg: #4dc490;
+  --red-bg: #f03535;
+  --purple-bg: #655AF2;
+}
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -58,7 +65,7 @@ body {
   line-height: 1.5;
   font-family: "Inter", "Arial", sans-serif;
   height: 100%;
-  background-color: #fff;
+  background-color: var(--body-bg);
   color: #222;
 }
 
@@ -70,9 +77,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-right: 50px;
-  padding-left: 50px;
+  max-width: 1192px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -81,4 +88,6 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
