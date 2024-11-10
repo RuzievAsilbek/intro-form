@@ -1,3 +1,41 @@
+/* FONTS */
+@font-face {
+  font-family: "Inter 28pt";
+  src: url("/fonts/Inter28pt-SemiBold.woff2") format("woff2"),
+      url("/fonts/Inter28pt-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter 28pt";
+  src: url("/fonts/Inter28pt-Medium.woff2") format("woff2"),
+      url("/fonts/Inter28pt-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter 28pt";
+  src: url("/fonts/Inter28pt-Regular.woff2") format("woff2"),
+      url("/fonts/Inter28pt-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter 28pt";
+  src: url("/fonts/Inter28pt-Bold.woff2") format("woff2"),
+      url("/fonts/Inter28pt-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -18,7 +56,7 @@ body {
   padding: 0;
   margin: 0;
   line-height: 1.5;
-  font-family: "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   height: 100%;
   background-color: #fff;
   color: #222;
